@@ -2,7 +2,7 @@
 @section('content')
     <center>
         <br>
-            <h2>UPDATE DATA MENGAJAR</h2>
+            <h2>UPDATE DATA NILAI</h2>
             <form action="/nilai/update/{{$nilai->id}}" method="POST">
             @csrf
                 <table width="50%">

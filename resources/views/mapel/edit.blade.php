@@ -6,7 +6,8 @@
             <form action="/mapel/update/{{$mapel->id}}"  method="POST">
             @csrf
                 <table width="50%">
-                    <tr>MATA PELAJARAN</td>
+                    <tr>
+                        <td>MATA PELAJARAN</td>
                         <td class="bar">
                             <input type="text" name="nama_mapel" value="{{ $mapel->nama_mapel }}">
                         </td>
